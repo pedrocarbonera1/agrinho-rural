@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 4% 4%;
+    box-shadow: 0 10px 20px -8px rgb(255, 255, 255);
+    border-bottom: solid black 2px;
+    border-radius: 2px;
+}
+
+.logo {
+
+    float: left;
+
+
+}
+
+.logo img {
+    height: 150px;
+    border-radius: 100%;
+    border: solid rgb(0, 0, 0) 2px;
+    box-shadow: 0 10px 20px -8px rgb(255, 253, 253);
+
+}
+
+#login-icon {
+    width: 3%;
+    float: right;
+}
+
+h3 {
+    text-align: center;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    font-size: large;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background-color: #f5f5f5;
+
+    text-align: center;
+}
+
+.banner h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#detalhes-produto {
+    padding: 50px 0;
+}
+
+.produto-detalhes-card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.produto-detalhes-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+    flex: 1;
+    max-width: 300px;
+}
+
+.produto-detalhes-info {
+    flex: 2;
+    padding: 20px;
+}
+
+.produto-detalhes-info h3 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.produto-detalhes-info p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.produto-detalhes-info .preco {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    border-top: solid black 2px;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer .redes-sociais {
+    text-align: center;
+}
+
+footer .redes-sociais a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .logo {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #login-icon {
+        float: none;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .logo img {
+        height: 100px;
+    }
+
+    nav ul {
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner {
+        padding: 30px 10px;
+    }
+
+    .banner h2 {
+        font-size: 1.5rem;
+    }
+
+    .produto-detalhes-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .produto-detalhes-card img {
+        max-width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .produto-detalhes-info {
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .logo,
+    #login-icon {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .logo img {
+        height: 100px;
+    }
+
+    .banner {
+        padding: 30px 0;
+    }
+
+    .banner h2 {
+        font-size: 150%;
+    }
+
+    .produto-detalhes-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .produto-detalhes-card img {
+        max-width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .produto-detalhes-info {
+        padding: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer ul {
+        text-align: center;
+    }
+
+    footer ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    footer .redes-sociais a {
+        margin-right: 15px;
+    }
+}

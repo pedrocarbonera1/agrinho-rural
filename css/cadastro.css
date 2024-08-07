@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.cadastro-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.cadastro-container h2 {
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.cadastro-container input[type="text"],
+.cadastro-container input[type="email"],
+.cadastro-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cadastro-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cadastro-container button:hover {
+    background-color: #45a049;
+}
+
+.cadastro-container a {
+    display: block;
+    margin-top: 10px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.cadastro-container a:hover {
+    text-decoration: underline;
+}
+
+.logo img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .cadastro-container {
+        padding: 30px;
+    }
+
+    .cadastro-container h2 {
+        font-size: 1.8rem;
+    }
+
+    .cadastro-container input[type="text"],
+    .cadastro-container input[type="email"],
+    .cadastro-container input[type="password"] {
+        padding: 8px;
+    }
+
+    .cadastro-container button {
+        padding: 8px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cadastro-container {
+        padding: 20px;
+    }
+
+    .cadastro-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .cadastro-container input[type="text"],
+    .cadastro-container input[type="email"],
+    .cadastro-container input[type="password"] {
+        padding: 6px;
+    }
+
+    .cadastro-container button {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    .logo img {
+        height: 80px;
+    }
+}

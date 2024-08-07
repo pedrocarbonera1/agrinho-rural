@@ -1,0 +1,707 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.conteiner .ofertas {
+    border-top: solid rgba(158, 153, 153, 0.473) 2px;
+    border-bottom: solid rgba(158, 153, 153, 0.473) 2px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 4% 4%;
+    box-shadow: 0 10px 20px -8px rgb(255, 255, 255);
+    border-bottom: solid black 2px;
+    border-radius: 2px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    height: 150px;
+    border-radius: 100%;
+    border: solid rgb(0, 0, 0) 2px;
+    box-shadow: 0 10px 20px -8px rgb(255, 253, 253);
+}
+
+#login-icon {
+    width: 3%;
+    float: right;
+}
+
+h3 {
+    text-align: center;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    font-size: large;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 190%;
+    margin-bottom: 20px;
+    text-rendering: geometricPrecision;
+}
+
+.banner .btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.banner .btn:hover {
+    background-color: #45a049;
+}
+
+.produto-card,
+.oferta-card,
+.destaque-card,
+.feedback-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.produto-card:hover,
+.oferta-card:hover,
+.destaque-card:hover,
+.feedback-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px #4CAF50;
+}
+
+
+#produtos {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.produto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produto-card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.301);
+    width: 25%;
+    animation: fade-in 2s ease-out forwards;
+}
+
+.produto-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.produto-card h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.produto-card p {
+    color: #666;
+    margin-top: 10px;
+}
+
+.produto-card .preco {
+    display: block;
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #4CAF50;
+}
+
+.produto-card .btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.produto-card .btn:hover {
+    background-color: #45a049;
+}
+
+#detalhes {
+    display: flex;
+    justify-content: center;
+}
+
+#detalhes p {
+    text-align: center;
+}
+
+.detalhes-container {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    padding: 60px;
+}
+
+.detalhes-card {
+    background-color: #ffffff;
+    border: solid 2px green;
+    border-radius: 5px;
+    padding: 4%;
+}
+
+.detalhes-card img {
+    float: left;
+    width: 10%;
+    border-radius: 5px;
+}
+
+#sobre {
+    padding: 50px 0;
+}
+
+.equipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.membro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.membro img {
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+}
+
+.membro h4 {
+    margin-top: 10px;
+}
+
+#contato {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.contato-form-mapa {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#contato form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contato form input,
+#contato form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contato form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+iframe.loc {
+    flex: 1;
+    border: 0;
+    border-radius: 4%;
+    height: 15%;
+}
+
+.contato-info {
+    text-align: right;
+}
+
+#be {
+    text-size-adjust: 40px;
+    height: 30px;
+}
+
+.home-banner {
+    padding: auto;
+    background-image: url('../image/img-digitar.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    border-bottom: solid rgba(0, 0, 0, 0.562) 2px;
+}
+
+.digitar {
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    border-right: .15em solid rgba(255, 255, 255, 0);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: digitar 4s steps(60, end), blink-caret .75s step-end infinite;
+}
+
+#ofertas {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.oferta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.oferta-card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.301);
+    margin-bottom: 20px;
+    margin-right: 0;
+    width: 25%;
+    animation: fade-in 2s ease-out forwards;
+}
+
+.oferta-card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.oferta-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.oferta-card p {
+    margin-bottom: 15px;
+    color: #777;
+}
+
+.oferta-card .preco-antigo {
+    text-decoration: line-through;
+    color: #f00808;
+    margin-right: 10px;
+}
+
+.oferta-card .preco {
+    font-size: 1.5em;
+    color: #4CAF50;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.oferta-card .btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.oferta-card .btn:hover {
+    background-color: #45a049;
+}
+
+.avaliacao {
+    margin-bottom: 10px;
+}
+
+.avaliacao .estrela {
+    font-size: 1.2em;
+    color: #FFD700;
+    margin: 0 2px;
+}
+
+.avaliacao .nota {
+    font-size: 1em;
+    color: #777;
+}
+
+#destaques {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+#destaques h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.destaques {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.destaque-card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.301);
+    margin-bottom: 20px;
+    margin-right: 0;
+    width: 25%;
+    border-radius: 5px;
+    animation: fade-in 2s ease-out forwards;
+}
+
+.destaque-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.destaque-card h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.destaque-card p {
+    color: #666;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.destaque-card .preco {
+    display: block;
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #4CAF50;
+    text-align: center;
+}
+
+.destaque-card .btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.destaque-card .btn:hover {
+    background-color: #45a049;
+}
+
+#feedback {
+    padding: 50px 0;
+    background-color: #f2f2f2;
+}
+
+.feedback-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feedback-card {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.feedback-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.feedback-info {
+    flex: 1;
+}
+
+.feedback-info h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.feedback-info p {
+    color: #666;
+    margin-top: 10px;
+}
+
+
+
+#sobre {
+    text-align: center;
+    font-size: large;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    border-top: solid black 2px;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer .redes-sociais {
+    text-align: center;
+}
+
+footer .redes-sociais a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes digitar {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .logo img {
+        height: 100px;
+    }
+
+    #login-icon {
+        width: 10%;
+        margin-top: 10px;
+    }
+
+    nav ul {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .banner {
+        padding: 30px 10px;
+    }
+
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner .btn {
+        padding: 8px 16px;
+    }
+
+    .produto-card,
+    .oferta-card,
+    .destaque-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .detalhes-card {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .detalhes-card img {
+        width: 30%;
+        margin-right: 10px;
+    }
+
+    .membro img {
+        width: 80px;
+    }
+
+    footer ul {
+        text-align: center;
+    }
+
+    footer ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    footer .redes-sociais a {
+        margin-right: 15px;
+    }
+
+    .digitar {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    header,
+    .container,
+    .carrinho,
+    footer {
+        padding: 10px;
+    }
+
+    nav ul {
+        float: none;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #login-icon {
+        width: 7%;
+    }
+
+    .logo img {
+        height: 80px;
+    }
+
+    .carrinho h1 {
+        font-size: 1.2rem;
+    }
+
+    .logo,
+    nav ul {
+        float: none;
+        text-align: center;
+    }
+
+    .banner {
+        padding: 30px 0;
+    }
+
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner .btn {
+        padding: 8px 16px;
+    }
+
+    .produto-card,
+    .oferta-card,
+    .destaque-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .detalhes-card {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .detalhes-card img {
+        width: 20%;
+    }
+
+    .membro img {
+        width: 80px;
+    }
+
+    .feedback-card {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .feedback-card img {
+        margin-bottom: 15px;
+    }
+
+    .feedback-info {
+        text-align: center;
+    }
+}

@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 4% 4%;
+    box-shadow: 0 10px 20px -8px rgb(255, 255, 255);
+    border-bottom: solid black 2px;
+    border-radius: 2px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    height: 150px;
+    border-radius: 100%;
+    border: solid black 2px;
+    box-shadow: 0 10px 20px -8px rgb(255, 253, 253);
+}
+
+#login-icon {
+    width: 3%;
+    float: right;
+}
+
+h3 {
+    text-align: center;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    font-size: large;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.carrinho {
+    padding: 50px 0;
+}
+
+.carrinho h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.carrinho table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.carrinho table th,
+.carrinho table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.carrinho table th {
+    background-color: #f4f4f4;
+}
+
+.carrinho table td input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+}
+
+.carrinho .total {
+    text-align: right;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.carrinho .checkout {
+    text-align: center;
+}
+
+.carrinho .btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.carrinho .btn:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    border-top: solid black 2px;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer .redes-sociais {
+    text-align: center;
+}
+
+footer .redes-sociais a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+
+    header,
+    .container,
+    .carrinho,
+    footer {
+        padding: 20px;
+    }
+
+    nav ul {
+        float: none;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #login-icon {
+        width: 5%;
+    }
+
+    .logo img {
+        height: 100px;
+    }
+
+    .carrinho h1 {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    header,
+    .container,
+    .carrinho,
+    footer {
+        padding: 10px;
+    }
+
+    nav ul {
+        float: none;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #login-icon {
+        width: 7%;
+    }
+
+    .logo img {
+        height: 80px;
+    }
+
+    .carrinho h1 {
+        font-size: 1.2rem;
+    }
+
+    .logo,
+    nav ul {
+        float: none;
+        text-align: center;
+    }
+}

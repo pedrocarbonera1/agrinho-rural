@@ -8,6 +8,8 @@ Pedro Henrique Carbonera - carbonerapedro50@gmail.com
 
 **A Place Agro** surgiu ao identificar a necessidade de produtores rurais que, muitas vezes, dependem de feiras e eventos para anunciar suas colheitas e produtos. Desenvolvemos um Marketplace Rural, onde os produtores não dependem mais desses eventos para divulgar seus produtos. Agora, com apenas um celular, eles podem anunciar diversos itens a qualquer momento, facilitando e ampliando o comércio dos pequenos produtores rurais.
 
+![](image/placeagro1.jpg)
+
 ###  Como usar o Site
 
 **Navegação**: Utilize o menu de navegação no cabeçalho para acessar as seções Início, Sobre, Vender, Contato, Login e Carrinho.
@@ -23,6 +25,7 @@ Pedro Henrique Carbonera - carbonerapedro50@gmail.com
 
 
 **Contato**: Utilize a seção de contato para entrar em contato com a equipe.
+
 
 
 **Funcionalidades:**
@@ -59,3 +62,11 @@ Parceiros que autorizaram captura de foto de seus produtos para a divulgação
 
 - **Mercado São Miguel**
 
+
+**Patrocinador**
+
+Patrocinador que disponibilizou o DNS para o Site Place Agro
+
+
+
+- **Harpa Tecnologia**

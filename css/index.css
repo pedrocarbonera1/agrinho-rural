@@ -280,7 +280,7 @@ iframe.loc {
     padding: auto;
     background-image: url('../image/img-digitar.png');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; 
     background-position: center;
     border-bottom: solid rgba(0, 0, 0, 0.562) 2px;
 }
@@ -567,6 +567,10 @@ footer .redes-sociais a {
     nav ul {
         justify-content: center;
         margin-top: 10px;
+    }
+    
+    .home-banner {
+        background-attachment: scroll; 
     }
 
     .banner {

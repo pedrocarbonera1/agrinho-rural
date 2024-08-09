@@ -4,7 +4,7 @@ Pedro Henrique Carbonera - carbonerapedro50@gmail.com
 
 ##  Place Agro (Marketing place Rural)
 
-**Objetivo**
+**Objetivo:**
 
 **A Place Agro** surgiu ao identificar a necessidade de produtores rurais que, muitas vezes, dependem de feiras e eventos para anunciar suas colheitas e produtos. Desenvolvemos um Marketplace Rural, onde os produtores não dependem mais desses eventos para divulgar seus produtos. Agora, com apenas um celular, eles podem anunciar diversos itens a qualquer momento, facilitando e ampliando o comércio dos pequenos produtores rurais.
 
@@ -50,6 +50,25 @@ Pedro Henrique Carbonera - carbonerapedro50@gmail.com
 -  **Detalhes Vendedor**
     - Nas páginas de detalhes de produtos e de feedbacks e comentários, ao clicar no nome dos usuários/vendedores, é possível ver detalhes do vendedor, como email e endereço
    
+
+   ### Algumas das páginas que você vai encontrar:
+
+![](image/login.png)
+
+![](image/cadastro.png)
+
+![](image/vender.png)
+
+![](image/carrinho.png)
+
+![](image/detaprodutos.png)
+
+![](image/detavendedores.png)
+
+![](image/login.png)
+
+![](image/)
+
 
 ### Um pouco sobre o desenvolvimento
 

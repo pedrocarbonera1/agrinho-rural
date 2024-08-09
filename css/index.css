@@ -570,7 +570,7 @@ footer .redes-sociais a {
     }
 
     .home-banner {
-        background-attachment: none; 
+        background-attachment: scroll; 
     }
 
     .banner {

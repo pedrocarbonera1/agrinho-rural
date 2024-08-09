@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.conteiner .ofertas {
+    border-top: solid rgba(158, 153, 153, 0.473) 2px;
+    border-bottom: solid rgba(158, 153, 153, 0.473) 2px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 4% 4%;
+    box-shadow: 0 10px 20px -8px rgb(255, 255, 255);
+    border-bottom: solid black 2px;
+    border-radius: 2px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    height: 150px;
+    border-radius: 100%;
+    border: solid rgb(0, 0, 0) 2px;
+    box-shadow: 0 10px 20px -8px rgb(255, 253, 253);
+}
+
+#login-icon {
+    width: 3%;
+    float: right;
+}
+
+h3 {
+    text-align: center;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    font-size: large;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+#dados-vendedor {
+    padding: 50px 0;
+}
+
+.vendedor-card {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.vendedor-foto img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.vendedor-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.vendedor-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.vendedor-info p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    border-top: solid black 2px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer .redes-sociais {
+    margin-bottom: 10px;
+}
+
+footer .redes-sociais a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .vendedor-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .vendedor-foto img {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .vendedor-info h2 {
+        font-size: 24px;
+    }
+
+    .vendedor-info p {
+        font-size: 14px;
+    }
+}

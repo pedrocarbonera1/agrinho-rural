@@ -76,6 +76,10 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+a {
+    text-decoration: none;
+}
+
 .banner {
     text-align: center;
     padding: 50px 0;

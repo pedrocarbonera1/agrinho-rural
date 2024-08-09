@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -14,8 +13,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-
-
 }
 
 .container h2 {
@@ -23,6 +20,11 @@ body {
     margin-bottom: 30px;
     font-size: 2rem;
     color: #333;
+}
+
+.conteiner .ofertas {
+    border-top: solid rgba(158, 153, 153, 0.473) 2px;
+    border-bottom: solid rgba(158, 153, 153, 0.473) 2px;
 }
 
 header {
@@ -35,10 +37,7 @@ header {
 }
 
 .logo {
-
     float: left;
-
-
 }
 
 .logo img {
@@ -46,7 +45,6 @@ header {
     border-radius: 100%;
     border: solid rgb(0, 0, 0) 2px;
     box-shadow: 0 10px 20px -8px rgb(255, 253, 253);
-
 }
 
 #login-icon {
@@ -62,7 +60,6 @@ nav ul {
     float: right;
     list-style: none;
     font-size: large;
-
 }
 
 nav ul li {
@@ -77,6 +74,10 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
 }
 
 .banner {
@@ -94,15 +95,7 @@ nav ul li a:hover {
     padding: 50px 0;
 }
 
-.produto-detalhes-card {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+
 
 .produto-detalhes-card img {
     max-width: 100%;
@@ -132,6 +125,35 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: bold;
     color: #28a745;
+}
+
+.produto-detalhes-card {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.vendedor-info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: center;
+}
+
+.vendedor-info img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.vendedor-info p {
+    font-size: 14px;
+    color: #333;
 }
 
 footer {
@@ -214,7 +236,19 @@ footer .redes-sociais a {
     .produto-detalhes-info {
         padding: 0;
     }
+
+    .vendedor-info {
+        position: static;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .vendedor-info img {
+        width: 40px;
+        height: 40px;
+    }
 }
+
 
 @media (max-width: 480px) {
     header {
@@ -253,6 +287,15 @@ footer .redes-sociais a {
 
     .produto-detalhes-info {
         padding: 0;
+    }
+
+    .vendedor-info img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .vendedor-info p {
+        font-size: 12px;
     }
 
     nav ul {

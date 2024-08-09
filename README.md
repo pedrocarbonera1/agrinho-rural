@@ -67,6 +67,7 @@ Parceiros que autorizaram captura de foto de seus produtos para a divulgação
 
 Patrocinador que disponibilizou o DNS para o Site Place Agro
 
-
-
 - **Harpa Tecnologia**
+
+**Link do Site**
+* https://placeagro.com.br

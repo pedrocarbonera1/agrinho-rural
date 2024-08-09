@@ -20,7 +20,6 @@ Pedro Henrique Carbonera - carbonerapedro50@gmail.com
 
 **Informações**: Leia sobre a Place Agro e os requisitos atendidos em blocos de informações.
 
-
 **Feedbacks**: Confira feedbacks e comentários de outros usuários.
 
 
@@ -46,7 +45,10 @@ Pedro Henrique Carbonera - carbonerapedro50@gmail.com
 - **Compra de Produtos**
     - Carrinho para admministrar e fazer grandes compras de uma só vez.
 - **Detalhes**
-    - Botão que exibe os detalhes de um produto.
+    - Botão que exibe os detalhes de um produto e exbibe qual o vendedor 
+
+-  **Detalhes Vendedor**
+    - Nas páginas de detalhes de produtos e de feedbacks e comentários, ao clicar no nome dos usuários/vendedores, é possível ver detalhes do vendedor, como email e endereço
    
 
 ### Um pouco sobre o desenvolvimento

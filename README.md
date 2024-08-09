@@ -53,21 +53,29 @@ Pedro Henrique Carbonera - carbonerapedro50@gmail.com
 
    ### Algumas das páginas que você vai encontrar:
 
+-  **Login:**
 ![](image/login.png)
+
+- **Cadastro:**
 
 ![](image/cadastro.png)
 
+- **Venda:**
+
 ![](image/vender.png)
+
+- **Carrinho:**
 
 ![](image/carrinho.png)
 
+- **Detalhes do produto:**
+
 ![](image/detaprodutos.png)
+
+- **Detalhes do vendedor:**
 
 ![](image/detavendedores.png)
 
-![](image/login.png)
-
-![](image/)
 
 
 ### Um pouco sobre o desenvolvimento

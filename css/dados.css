@@ -34,10 +34,15 @@ header {
     box-shadow: 0 10px 20px -8px rgb(255, 255, 255);
     border-bottom: solid black 2px;
     border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .logo {
-    float: left;
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
@@ -48,8 +53,10 @@ header {
 }
 
 #login-icon {
-    width: 3%;
+    width: 40px;
+    height: 40px;
     float: right;
+    margin-left: auto;
 }
 
 h3 {
@@ -57,13 +64,14 @@ h3 {
 }
 
 nav ul {
-    float: right;
+    display: flex;
+    align-items: center;
     list-style: none;
     font-size: large;
+    margin-left: auto;
 }
 
 nav ul li {
-    display: inline;
     margin-left: 20px;
 }
 
@@ -76,19 +84,19 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-
-
 #dados-vendedor {
     padding: 50px 0;
 }
 
 .vendedor-card {
     display: flex;
+    flex-wrap: wrap;
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
 }
 
 .vendedor-foto img {
@@ -96,6 +104,7 @@ nav ul li a:hover {
     width: 150px;
     height: 150px;
     margin-right: 20px;
+    flex-shrink: 0;
 }
 
 .vendedor-info {
@@ -123,6 +132,7 @@ footer {
 footer ul {
     list-style: none;
     margin-bottom: 10px;
+    padding: 0;
 }
 
 footer ul li {
@@ -146,10 +156,9 @@ footer .redes-sociais a {
 
 @media (max-width: 768px) {
 
-
     header {
         flex-direction: column;
-        padding: 20px;
+        align-items: center;
         text-align: center;
     }
 
@@ -158,32 +167,49 @@ footer .redes-sociais a {
     }
 
     #login-icon {
-        width: 10%;
+        width: 40px;
         margin-top: 10px;
     }
 
     nav ul {
         justify-content: center;
         margin-top: 10px;
+        flex-wrap: wrap;
     }
 
     .vendedor-card {
         flex-direction: column;
-        align-items: center;
         text-align: center;
     }
 
     .vendedor-foto img {
         margin-bottom: 20px;
     }
+
+    .vendedor-info {
+        padding: 10px;
+    }
 }
 
 @media (max-width: 480px) {
+
     .vendedor-info h2 {
         font-size: 24px;
     }
 
     .vendedor-info p {
         font-size: 14px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    .logo img {
+        height: 80px;
+    }
+
+    nav ul li {
+        margin-left: 10px;
     }
 }
